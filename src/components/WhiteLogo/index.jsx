@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../../assets/white-logo.svg';
+import './index.css';
 
 const WhiteLogo = () => {
     return ( 
-        <>
-        <img draggable="false" src={logo} alt="Nu Kenzie logo" />
-        </>
+        <div className='white-logo'>
+            <h1 className='logo'><span>V</span> Finance</h1>
+        </div>
      );
 }
  

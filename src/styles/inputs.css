@@ -3,6 +3,12 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
+input:focus,
+select:focus {
+    outline: 2px solid var(--color-primary-1);
+    caret-color: var(--color-primary-1);
+}
+
 .defaultInput {
     display: flex;
     flex-direction: column;
