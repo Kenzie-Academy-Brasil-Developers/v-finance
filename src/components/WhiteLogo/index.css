@@ -1,12 +1,12 @@
-h1 {
+.white-logo h1 {
     color: var(--color-white);
 }
 
-h1 span {
+.white-logo h1 span {
     color: var(--color-primary-1);
 }
 
-h1, h1 span {
+.white-logo h1, .white-logo h1 span {
     font-weight: 800;
     font-size: 1.655rem;
     user-select: none;

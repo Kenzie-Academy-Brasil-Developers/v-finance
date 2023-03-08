@@ -3,7 +3,7 @@ import './index.css';
 
 const WhiteLogo = () => {
     return ( 
-        <div>
+        <div className='white-logo'>
             <h1 className='logo'><span>V</span> Finance</h1>
         </div>
      );
