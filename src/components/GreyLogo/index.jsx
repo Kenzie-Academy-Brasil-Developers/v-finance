@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from '../../assets/grey-logo.svg';
+import React from "react";
+import "./index.css";
 
 const GreyLogo = () => {
-    return ( 
-        <>
-        <img draggable="false" src={logo} alt="Nu Kenzie logo" />
-        </>
-     );
-}
- 
+  return (
+    <div className="grey-logo">
+      <h1 className="logo">
+        <span>V</span> Finance
+      </h1>
+    </div>
+  );
+};
+
 export default GreyLogo;

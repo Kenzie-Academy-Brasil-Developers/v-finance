@@ -1,0 +1,13 @@
+.grey-logo h1 {
+    color: var(--color-grey-4);
+}
+
+.grey-logo h1 span {
+    color: var(--color-primary-1);
+}
+
+.grey-logo h1, .grey-logo h1 span {
+    font-weight: 800;
+    font-size: 1.635rem;
+    user-select: none;
+}
